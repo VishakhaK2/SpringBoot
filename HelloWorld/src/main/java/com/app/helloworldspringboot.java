@@ -17,6 +17,13 @@ public class helloworldspringboot {
 	{
 		return "You belongs Indo Pacific region!!!";
 	}
+	
+	@GetMapping("/demoservice")
+	public String demo()
+	{
+		return "First Demo in FIS!!!";
+	}
+	
 	public static void main(String args[])
 	{
 		SpringApplication.run(helloworldspringboot.class, args);
