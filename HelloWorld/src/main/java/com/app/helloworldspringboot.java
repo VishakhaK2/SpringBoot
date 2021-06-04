@@ -12,7 +12,11 @@ public class helloworldspringboot {
 	{
 		return "Hello World....";
 	}
-	
+	@GetMapping("/regionservice")
+	public String region()
+	{
+		return "You belongs Indo Pacific region!!!";
+	}
 	public static void main(String args[])
 	{
 		SpringApplication.run(helloworldspringboot.class, args);
