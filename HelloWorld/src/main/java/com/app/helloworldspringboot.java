@@ -18,6 +18,13 @@ public class helloworldspringboot {
 		return "You belongs Indo Pacific region..!!!";
 	}
 	
+	@GetMapping("/testservice")
+	public String test()
+	{
+		return "Deployment is successful..!!!";
+	}
+	
+	
 	@GetMapping("/weatherservice")
 	public String getWeatherInfo()
 	{
