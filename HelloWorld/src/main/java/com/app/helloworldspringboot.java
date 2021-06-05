@@ -15,7 +15,13 @@ public class helloworldspringboot {
 	@GetMapping("/regionservice")
 	public String region()
 	{
-		return "You belongs Indo Pacific region!!!";
+		return "You belongs Indo Pacific region..!!!";
+	}
+	
+	@GetMapping("/weatherservice")
+	public String getWeatherInfo()
+	{
+		return "Raining Today..!!!";
 	}
 	
 	@GetMapping("/demoservice")
